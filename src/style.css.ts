@@ -21,14 +21,23 @@ const container = style({
 
 const box = style({
   display: 'flex',
-  padding: '1rem',
-  flexDirection: 'column',
-  borderRadius: '1rem',
+  padding: '4px 8px ',
+  borderRadius: '8px',
   backgroundColor: '#EDEEF0',
+  alignItems: 'center',
+  gap: '4px',
+});
+
+const row = style({
+  display: 'flex',
+  gap: '8px',
+  flexDirection: 'row',
+  alignItems: 'flex-end',
 });
 
 export const appSt = {
   bottomBtn,
   container,
   box,
+  row,
 };
